@@ -48,7 +48,7 @@ struct AlbumPageView: View {
                                         .frame(width: 48)
                                     Image(systemName: "arrowtriangle.right.fill")
                                         .foregroundColor(Color.bgColor)
-                                        .font(.system(size: 25))
+                                        .font(.system(size: 20))
                                         .padding(.leading, 3)
                                 }
                             }

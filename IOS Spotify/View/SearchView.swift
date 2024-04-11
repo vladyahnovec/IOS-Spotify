@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct SearchView: View {
+    @ObservedObject var model : Model
     @State var text : String
     var body: some View {
         VStack {
@@ -74,6 +75,7 @@ struct SearchView: View {
                         }
                     }
                 }
+                TabBarView(model: model)
             }
             .padding(.horizontal, 16)
             .padding(.top, 60)
@@ -81,8 +83,4 @@ struct SearchView: View {
         .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
         .background(Color.bgColor)
     }
-}
-
-#Preview {
-    SearchView(text: "")
 }

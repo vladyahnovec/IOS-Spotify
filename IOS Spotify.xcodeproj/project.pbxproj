@@ -16,6 +16,10 @@
 		F443FCA02BC70F3F0000A5B4 /* AlbumPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F443FC9F2BC70F3F0000A5B4 /* AlbumPageView.swift */; };
 		F443FCA22BC70F530000A5B4 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F443FCA12BC70F530000A5B4 /* PlayerView.swift */; };
 		F443FCA42BC70F790000A5B4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F443FCA32BC70F790000A5B4 /* Extensions.swift */; };
+		F475AD362BC7EB0C00898668 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F475AD352BC7EB0C00898668 /* Model.swift */; };
+		F475AD382BC7ECF200898668 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F475AD372BC7ECF200898668 /* TabBarView.swift */; };
+		F488C9ED2BC8920A00878ADC /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488C9EC2BC8920A00878ADC /* LibraryView.swift */; };
+		F488C9EF2BC8968E00878ADC /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488C9EE2BC8968E00878ADC /* MusicView.swift */; };
 		F49DCA862BC7291D004FC87F /* CircularStd-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F49DCA7E2BC7291D004FC87F /* CircularStd-BookItalic.otf */; };
 		F49DCA872BC7291D004FC87F /* CircularStd-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F49DCA7F2BC7291D004FC87F /* CircularStd-MediumItalic.otf */; };
 		F49DCA882BC7291D004FC87F /* CircularStd-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F49DCA802BC7291D004FC87F /* CircularStd-BlackItalic.otf */; };
@@ -38,6 +42,10 @@
 		F443FC9F2BC70F3F0000A5B4 /* AlbumPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumPageView.swift; sourceTree = "<group>"; };
 		F443FCA12BC70F530000A5B4 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		F443FCA32BC70F790000A5B4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F475AD352BC7EB0C00898668 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F475AD372BC7ECF200898668 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		F488C9EC2BC8920A00878ADC /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		F488C9EE2BC8968E00878ADC /* MusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicView.swift; sourceTree = "<group>"; };
 		F49DCA7E2BC7291D004FC87F /* CircularStd-BookItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-BookItalic.otf"; sourceTree = "<group>"; };
 		F49DCA7F2BC7291D004FC87F /* CircularStd-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-MediumItalic.otf"; sourceTree = "<group>"; };
 		F49DCA802BC7291D004FC87F /* CircularStd-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-BlackItalic.otf"; sourceTree = "<group>"; };
@@ -105,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				F49DCA8F2BC72EA1004FC87F /* GridModel.swift */,
+				F475AD352BC7EB0C00898668 /* Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -124,6 +133,9 @@
 				F443FC9D2BC70F2E0000A5B4 /* SearchView.swift */,
 				F443FC9F2BC70F3F0000A5B4 /* AlbumPageView.swift */,
 				F443FCA12BC70F530000A5B4 /* PlayerView.swift */,
+				F475AD372BC7ECF200898668 /* TabBarView.swift */,
+				F488C9EC2BC8920A00878ADC /* LibraryView.swift */,
+				F488C9EE2BC8968E00878ADC /* MusicView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -229,13 +241,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F475AD362BC7EB0C00898668 /* Model.swift in Sources */,
 				F443FC9E2BC70F2E0000A5B4 /* SearchView.swift in Sources */,
 				F49DCA902BC72EA1004FC87F /* GridModel.swift in Sources */,
 				F443FC9C2BC70F020000A5B4 /* HomeView.swift in Sources */,
 				F443FC8B2BC70DAB0000A5B4 /* ContentView.swift in Sources */,
 				F443FCA22BC70F530000A5B4 /* PlayerView.swift in Sources */,
 				F443FCA02BC70F3F0000A5B4 /* AlbumPageView.swift in Sources */,
+				F488C9ED2BC8920A00878ADC /* LibraryView.swift in Sources */,
 				F443FC892BC70DAB0000A5B4 /* IOS_SpotifyApp.swift in Sources */,
+				F475AD382BC7ECF200898668 /* TabBarView.swift in Sources */,
+				F488C9EF2BC8968E00878ADC /* MusicView.swift in Sources */,
 				F443FCA42BC70F790000A5B4 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
